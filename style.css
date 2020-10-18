@@ -1,0 +1,141 @@
+* {
+    text-align: center;
+}
+
+#a {
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    background-color: rgb(112, 100, 100);
+}
+
+#b {
+    line-height: 150px;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(207, 16, 16);
+}
+
+#c {
+    line-height: 125px;
+    width: 100%;
+    height: 125px;
+    background-color: rgb(55, 151, 25);
+}
+
+#d {
+    line-height: 125px;
+    width: 100%;
+    height: 125px;
+    background-color: rgb(53, 26, 97);
+}
+
+#e {
+    line-height: 125px;
+    width: 50%;
+    height: 125px;
+    /* display: inline; */
+    background-color: rgb(221, 133, 18);
+}
+
+#f {
+    line-height: 125px;
+    float: right;
+    width: 50%;
+    height: 125px;
+    /* display: inline; */
+    background-color: rgb(15, 201, 86);
+}
+
+#g {
+    line-height: 125px;
+    width: 50%;
+    height: 125px;
+    background-color: rgb(241, 123, 133);
+}
+
+#h {
+    line-height: 125px;
+    float: right;
+    width: 50%;
+    height: 125px;
+    background-color: rgb(149, 133, 173);
+}
+
+#i {
+    line-height: 80px;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(158, 36, 111);
+}
+
+@media all and (min-width: 768px) and (max-width: 1660px) {
+    #a {
+        width: 100%;
+        height: 100px;
+        line-height: 100px;
+        background-color: rgb(167, 24, 24);
+    }
+    #b {
+        line-height: 600px;
+        width: 21%;
+        height: 600px;
+        background-color: rgb(228, 203, 203);
+    }
+    #c {
+        margin-left: 21%;
+        margin-top: -600px;
+        line-height: 200px;
+        width: 39.5%;
+        height: 200px;
+        background-color: rgb(49, 75, 41);
+    }
+    #d {
+        margin-top: -200px; 
+        float: right;
+
+        line-height: 200px;
+        width: 39.5%;
+        height: 200px;
+        background-color: rgb(158, 124, 212);
+    }
+    #e {
+        margin-top: 0px;
+        margin-left: 21%;
+        line-height: -0px;
+        width: 20.5%;
+        height: 250px;
+        background-color: rgb(202, 162, 110);
+    }
+    #f {
+        line-height: 250px;
+        width: 19.25%;
+        float: left;
+        margin-left: 41.25%;
+        height: 250px;
+        background-color: rgb(85, 110, 95);
+    }
+    #g {
+        margin-top: -250px;
+        line-height: 250px;
+        margin-right: 20.25%;
+float: right;
+        width: 19.25%;
+        height: 250px;
+        background-color: rgb(224, 16, 34);
+    }
+    #h {
+        margin-left: -20%;
+        margin-top:-250px ;
+        line-height: 250px;
+        width: 20.5%;
+        height: 250px;
+        background-color: rgb(95, 32, 189);
+    }
+    #i {float: right;
+        line-height: 150px;
+        width: 79%;
+        height: 150px;
+        background-color: rgb(238, 167, 211);
+    }
+}
