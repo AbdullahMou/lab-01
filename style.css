@@ -1,40 +1,139 @@
-* {
+/* * {
     text-align: center;
+} */
+
+@media all and (min-width: 120px) and (max-width: 480px) {
+    .container {
+        height: 870px;
+        display: grid;
+        /* justify-content: center;
+        align-content: center; */
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 7.109% 14.217% 11.487% 11.847% 23.695% 23.695% 7.59;
+        /* grid-template-rows: auto */
+    }
+    #a {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(112, 100, 100);
+    }
+    #b {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(207, 16, 16);
+    }
+    #c {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(55, 151, 25);
+    }
+    #d {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(53, 26, 97);
+    }
+    #e {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(221, 133, 18);
+    }
+    #f {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(15, 201, 86);
+    }
+    #g {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(241, 123, 133);
+    }
+    #h {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(149, 133, 173);
+    }
+    #i {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(158, 36, 111);
+    }
 }
 
-#a {
-    width: 100%;
-    height: 75px;
-    line-height: 75px;
-    background-color: rgb(112, 100, 100);
-}
 
-#b {
-    line-height: 150px;
-    width: 100%;
-    height: 150px;
-    background-color: rgb(207, 16, 16);
-}
-
-#c {
-    line-height: 125px;
-    width: 100%;
-    height: 125px;
-    background-color: rgb(55, 151, 25);
-}
-
-#d {
-    line-height: 125px;
-    width: 100%;
-    height: 125px;
-    background-color: rgb(53, 26, 97);
-}
-
-#e {
-    line-height: 125px;
-    width: 50%;
-    height: 125px;
-    /* display: inline; */
+/* #a {
+        width: 100%;
+        height: 75px;
+        line-height: 75px;
+        background-color: rgb(112, 100, 100);
+    }
+    #b {
+        line-height: 150px;
+        width: 100%;
+        height: 150px;
+        background-color: rgb(207, 16, 16);
+    }
+    #c {
+        line-height: 125px;
+        width: 100%;
+        height: 125px;
+        background-color: rgb(55, 151, 25);
+    }
+    #d {
+        line-height: 125px;
+        width: 100%;
+        height: 125px;
+        background-color: rgb(53, 26, 97);
+    }
+    #e {
+        line-height: 125px;
+        width: 50%;
+        height: 125px;
+       
     background-color: rgb(221, 133, 18);
 }
 
@@ -43,7 +142,7 @@
     float: right;
     width: 50%;
     height: 125px;
-    /* display: inline; */
+   
     background-color: rgb(15, 201, 86);
 }
 
@@ -69,19 +168,143 @@
     background-color: rgb(158, 36, 111);
 }
 
-@media all and (min-width: 768px) and (max-width: 1660px) {
+*/
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        height: 700px;
+        display: grid;
+        /* justify-content: center;
+        align-content: center; */
+        grid-template-columns: 21% 19.5% 19.5% 19.5% 19.5%;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto
+        /* grid-template-rows: auto */
+    }
     #a {
+        display: flex;
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(189, 88, 88);
+    }
+    #b {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 15;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(188, 187, 216);
+    }
+    #c {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(120, 184, 100);
+    }
+    #d {
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 3;
+        grid-row-end: 7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(36, 2, 90);
+    }
+    #e {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 7;
+        grid-row-end: 12;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(133, 108, 75);
+    }
+    #f {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 7;
+        grid-row-end: 12;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(122, 129, 125);
+    }
+    #g {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 7;
+        grid-row-end: 12;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(66, 6, 11);
+    }
+    #h {
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start: 7;
+        grid-row-end: 12;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(61, 32, 105);
+    }
+    #i {
+        grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row-start: 12;
+        grid-row-end: 15;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(156, 45, 112);
+    }
+}
+
+
+/* #a {
         width: 100%;
         height: 100px;
         line-height: 100px;
         background-color: rgb(167, 24, 24);
     }
+    
     #b {
         line-height: 600px;
         width: 21%;
         height: 600px;
         background-color: rgb(228, 203, 203);
     }
+    
     #c {
         margin-left: 21%;
         margin-top: -600px;
@@ -90,15 +313,16 @@
         height: 200px;
         background-color: rgb(49, 75, 41);
     }
+    
     #d {
-        margin-top: -200px; 
+        margin-top: -200px;
         float: right;
-
         line-height: 200px;
         width: 39.5%;
         height: 200px;
         background-color: rgb(158, 124, 212);
     }
+    
     #e {
         margin-top: 0px;
         margin-left: 21%;
@@ -107,6 +331,7 @@
         height: 250px;
         background-color: rgb(202, 162, 110);
     }
+    
     #f {
         line-height: 250px;
         width: 19.25%;
@@ -115,27 +340,150 @@
         height: 250px;
         background-color: rgb(85, 110, 95);
     }
+    
     #g {
         margin-top: -250px;
         line-height: 250px;
         margin-right: 20.25%;
-float: right;
+        float: right;
         width: 19.25%;
         height: 250px;
         background-color: rgb(224, 16, 34);
     }
+    
     #h {
         margin-left: -20%;
-        margin-top:-250px ;
+        margin-top: -250px;
         line-height: 250px;
         width: 20.5%;
         height: 250px;
         background-color: rgb(95, 32, 189);
     }
-    #i {float: right;
+    
+    #i {
+        float: right;
         line-height: 150px;
         width: 79%;
         height: 150px;
         background-color: rgb(238, 167, 211);
+    } */
+
+@media all and (min-width: 769px) {
+    .container {
+        height: 700px;
+        display: grid;
+        /* justify-content: center;
+        align-content: center; */
+        grid-template-columns: 21% 19.5% 19.5% 19.5% 19.5%;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto
+        /* grid-template-rows: auto */
+    }
+    #a {
+        display: flex;
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(65, 231, 65);
+    }
+    #b {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 15;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(177, 74, 168);
+    }
+    #c {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(202, 100, 31);
+    }
+    #d {
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 3;
+        grid-row-end: 7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(156, 117, 219);
+    }
+    #e {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 7;
+        grid-row-end: 12;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(238, 65, 180);
+    }
+    #f {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 7;
+        grid-row-end: 12;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(103, 157, 219);
+    }
+    #g {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 7;
+        grid-row-end: 12;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(19, 15, 235);
+    }
+    #h {
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start: 7;
+        grid-row-end: 12;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(229, 16, 236);
+    }
+    #i {
+        grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row-start: 12;
+        grid-row-end: 15;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 3em;
+        background-color: rgb(240, 11, 148);
     }
 }
